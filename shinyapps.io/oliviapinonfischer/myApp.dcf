@@ -1,0 +1,9 @@
+name: myApp
+account: oliviapinonfischer
+server: shinyapps.io
+appId: 95060
+bundleId: 422045
+url: https://oliviapinonfischer.shinyapps.io/myApp/
+when: 1460865533.33125
+asMultiple: FALSE
+asStatic: FALSE
