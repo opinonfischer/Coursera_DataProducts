@@ -8,15 +8,14 @@ shinyUI(pageWithSidebar(
   headerPanel("Student Portal"),
   
   sidebarPanel(
+    h3("Documentation"),
+    helpText("This app is for searching, visualizing and sorting through student records. 
+             The dataset is notional and includes last and first names of the students, the programs they're in (Doctorate, Doctorate Presidential, MSc), and their GPA. 
+             The app provides the user with the capability to visualize students based on the program the students are enrolled in. After the user decided on which program to visualize, the app updates the table, histogram of GPAs and summary table, accordingly."),
+    
     selectInput("Program", "Choose a program:", 
                 choices = c("All", unique(as.character(studentData$Program))))
-    
-#     sliderInput("PhDGPA", "Final PhD GPA:", 
-#                 min=2, max=4, value=3.5, step = 0.1),
-#     
-#     sliderInput("MSGPA", "Final Master GPA:", 
-#                 min=2, max=4, value=3.5, step = 0.1)
-    #submitButton("Update View")
+
   ),
 
    mainPanel(
