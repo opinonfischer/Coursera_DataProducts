@@ -3,7 +3,6 @@
 title: "Coursera Data Products Project"
 author: "Olivia Pinon"
 date: "April 16rh, 2016"
-output: html_document
 ---
 
 ## Coursera_DataProducts
